@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/cypress/Works/ML/MFNN.cpp" "/Users/cypress/Works/ML/build/CMakeFiles/MLtest.dir/MFNN.cpp.o"
-  "/Users/cypress/Works/ML/main.cpp" "/Users/cypress/Works/ML/build/CMakeFiles/MLtest.dir/main.cpp.o"
+  "/Users/cypress/Works/MachineLearning/BP.cpp" "/Users/cypress/Works/MachineLearning/build/CMakeFiles/MLtest.dir/BP.cpp.o"
+  "/Users/cypress/Works/MachineLearning/MFNN.cpp" "/Users/cypress/Works/MachineLearning/build/CMakeFiles/MLtest.dir/MFNN.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

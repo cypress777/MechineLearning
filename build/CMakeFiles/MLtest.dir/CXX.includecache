@@ -6,9 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/cypress/Works/ML/MFNN.cpp
+/Users/cypress/Works/MachineLearning/BP.cpp
+vector
+-
+iostream
+-
+cmath
+-
+BP.hpp
+/Users/cypress/Works/MachineLearning/BP.hpp
 MFNN.hpp
-/Users/cypress/Works/ML/MFNN.hpp
+/Users/cypress/Works/MachineLearning/MFNN.hpp
+
+/Users/cypress/Works/MachineLearning/BP.hpp
+vector
+-
+
+/Users/cypress/Works/MachineLearning/MFNN.cpp
+MFNN.hpp
+/Users/cypress/Works/MachineLearning/MFNN.hpp
 cmath
 -
 random
@@ -16,23 +32,7 @@ random
 iostream
 -
 
-/Users/cypress/Works/ML/MFNN.hpp
-vector
--
-
-/Users/cypress/Works/ML/main.cpp
-vector
--
-iostream
--
-cmath
--
-main.hpp
-/Users/cypress/Works/ML/main.hpp
-MFNN.hpp
-/Users/cypress/Works/ML/MFNN.hpp
-
-/Users/cypress/Works/ML/main.hpp
+/Users/cypress/Works/MachineLearning/MFNN.hpp
 vector
 -
 

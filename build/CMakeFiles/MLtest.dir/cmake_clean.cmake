@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/MLtest.dir/main.cpp.o"
+  "CMakeFiles/MLtest.dir/BP.cpp.o"
   "CMakeFiles/MLtest.dir/MFNN.cpp.o"
   "MLtest.pdb"
   "MLtest"

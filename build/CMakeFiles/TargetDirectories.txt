@@ -1,3 +1,3 @@
-/Users/cypress/Works/ML/build/CMakeFiles/rebuild_cache.dir
-/Users/cypress/Works/ML/build/CMakeFiles/edit_cache.dir
-/Users/cypress/Works/ML/build/CMakeFiles/MLtest.dir
+/Users/cypress/Works/MachineLearning/build/CMakeFiles/rebuild_cache.dir
+/Users/cypress/Works/MachineLearning/build/CMakeFiles/edit_cache.dir
+/Users/cypress/Works/MachineLearning/build/CMakeFiles/MLtest.dir

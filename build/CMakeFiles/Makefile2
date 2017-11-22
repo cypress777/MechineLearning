@@ -54,10 +54,10 @@ RM = /usr/local/Cellar/cmake/3.7.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cypress/Works/ML
+CMAKE_SOURCE_DIR = /Users/cypress/Works/MachineLearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cypress/Works/ML/build
+CMAKE_BINARY_DIR = /Users/cypress/Works/MachineLearning/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/MLtest.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/cypress/Works/ML/build
 CMakeFiles/MLtest.dir/all:
 	$(MAKE) -f CMakeFiles/MLtest.dir/build.make CMakeFiles/MLtest.dir/depend
 	$(MAKE) -f CMakeFiles/MLtest.dir/build.make CMakeFiles/MLtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cypress/Works/ML/build/CMakeFiles --progress-num=1,2,3 "Built target MLtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/cypress/Works/MachineLearning/build/CMakeFiles --progress-num=1,2,3 "Built target MLtest"
 .PHONY : CMakeFiles/MLtest.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/MLtest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MLtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cypress/Works/ML/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cypress/Works/MachineLearning/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MLtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cypress/Works/ML/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cypress/Works/MachineLearning/build/CMakeFiles 0
 .PHONY : CMakeFiles/MLtest.dir/rule
 
 # Convenience name for target.

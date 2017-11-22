@@ -3,5 +3,5 @@ project(ML)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp main.hpp MFNN.cpp MFNN.hpp)
+set(SOURCE_FILES BP.cpp BP.hpp MFNN.cpp MFNN.hpp)
 add_executable(MLtest ${SOURCE_FILES})

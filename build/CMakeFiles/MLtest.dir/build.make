@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.7.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/cypress/Works/ML
+CMAKE_SOURCE_DIR = /Users/cypress/Works/MachineLearning
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/cypress/Works/ML/build
+CMAKE_BINARY_DIR = /Users/cypress/Works/MachineLearning/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MLtest.dir/depend.make
@@ -57,42 +57,42 @@ include CMakeFiles/MLtest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MLtest.dir/flags.make
 
-CMakeFiles/MLtest.dir/main.cpp.o: CMakeFiles/MLtest.dir/flags.make
-CMakeFiles/MLtest.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cypress/Works/ML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MLtest.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MLtest.dir/main.cpp.o -c /Users/cypress/Works/ML/main.cpp
+CMakeFiles/MLtest.dir/BP.cpp.o: CMakeFiles/MLtest.dir/flags.make
+CMakeFiles/MLtest.dir/BP.cpp.o: ../BP.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cypress/Works/MachineLearning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MLtest.dir/BP.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MLtest.dir/BP.cpp.o -c /Users/cypress/Works/MachineLearning/BP.cpp
 
-CMakeFiles/MLtest.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MLtest.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cypress/Works/ML/main.cpp > CMakeFiles/MLtest.dir/main.cpp.i
+CMakeFiles/MLtest.dir/BP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MLtest.dir/BP.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cypress/Works/MachineLearning/BP.cpp > CMakeFiles/MLtest.dir/BP.cpp.i
 
-CMakeFiles/MLtest.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MLtest.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cypress/Works/ML/main.cpp -o CMakeFiles/MLtest.dir/main.cpp.s
+CMakeFiles/MLtest.dir/BP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MLtest.dir/BP.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cypress/Works/MachineLearning/BP.cpp -o CMakeFiles/MLtest.dir/BP.cpp.s
 
-CMakeFiles/MLtest.dir/main.cpp.o.requires:
+CMakeFiles/MLtest.dir/BP.cpp.o.requires:
 
-.PHONY : CMakeFiles/MLtest.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/MLtest.dir/BP.cpp.o.requires
 
-CMakeFiles/MLtest.dir/main.cpp.o.provides: CMakeFiles/MLtest.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/MLtest.dir/build.make CMakeFiles/MLtest.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/MLtest.dir/main.cpp.o.provides
+CMakeFiles/MLtest.dir/BP.cpp.o.provides: CMakeFiles/MLtest.dir/BP.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MLtest.dir/build.make CMakeFiles/MLtest.dir/BP.cpp.o.provides.build
+.PHONY : CMakeFiles/MLtest.dir/BP.cpp.o.provides
 
-CMakeFiles/MLtest.dir/main.cpp.o.provides.build: CMakeFiles/MLtest.dir/main.cpp.o
+CMakeFiles/MLtest.dir/BP.cpp.o.provides.build: CMakeFiles/MLtest.dir/BP.cpp.o
 
 
 CMakeFiles/MLtest.dir/MFNN.cpp.o: CMakeFiles/MLtest.dir/flags.make
 CMakeFiles/MLtest.dir/MFNN.cpp.o: ../MFNN.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cypress/Works/ML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MLtest.dir/MFNN.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MLtest.dir/MFNN.cpp.o -c /Users/cypress/Works/ML/MFNN.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cypress/Works/MachineLearning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MLtest.dir/MFNN.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MLtest.dir/MFNN.cpp.o -c /Users/cypress/Works/MachineLearning/MFNN.cpp
 
 CMakeFiles/MLtest.dir/MFNN.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MLtest.dir/MFNN.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cypress/Works/ML/MFNN.cpp > CMakeFiles/MLtest.dir/MFNN.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/cypress/Works/MachineLearning/MFNN.cpp > CMakeFiles/MLtest.dir/MFNN.cpp.i
 
 CMakeFiles/MLtest.dir/MFNN.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MLtest.dir/MFNN.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cypress/Works/ML/MFNN.cpp -o CMakeFiles/MLtest.dir/MFNN.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/cypress/Works/MachineLearning/MFNN.cpp -o CMakeFiles/MLtest.dir/MFNN.cpp.s
 
 CMakeFiles/MLtest.dir/MFNN.cpp.o.requires:
 
@@ -107,17 +107,17 @@ CMakeFiles/MLtest.dir/MFNN.cpp.o.provides.build: CMakeFiles/MLtest.dir/MFNN.cpp.
 
 # Object files for target MLtest
 MLtest_OBJECTS = \
-"CMakeFiles/MLtest.dir/main.cpp.o" \
+"CMakeFiles/MLtest.dir/BP.cpp.o" \
 "CMakeFiles/MLtest.dir/MFNN.cpp.o"
 
 # External object files for target MLtest
 MLtest_EXTERNAL_OBJECTS =
 
-MLtest: CMakeFiles/MLtest.dir/main.cpp.o
+MLtest: CMakeFiles/MLtest.dir/BP.cpp.o
 MLtest: CMakeFiles/MLtest.dir/MFNN.cpp.o
 MLtest: CMakeFiles/MLtest.dir/build.make
 MLtest: CMakeFiles/MLtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cypress/Works/ML/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MLtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cypress/Works/MachineLearning/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MLtest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MLtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,7 +125,7 @@ CMakeFiles/MLtest.dir/build: MLtest
 
 .PHONY : CMakeFiles/MLtest.dir/build
 
-CMakeFiles/MLtest.dir/requires: CMakeFiles/MLtest.dir/main.cpp.o.requires
+CMakeFiles/MLtest.dir/requires: CMakeFiles/MLtest.dir/BP.cpp.o.requires
 CMakeFiles/MLtest.dir/requires: CMakeFiles/MLtest.dir/MFNN.cpp.o.requires
 
 .PHONY : CMakeFiles/MLtest.dir/requires
@@ -135,6 +135,6 @@ CMakeFiles/MLtest.dir/clean:
 .PHONY : CMakeFiles/MLtest.dir/clean
 
 CMakeFiles/MLtest.dir/depend:
-	cd /Users/cypress/Works/ML/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cypress/Works/ML /Users/cypress/Works/ML /Users/cypress/Works/ML/build /Users/cypress/Works/ML/build /Users/cypress/Works/ML/build/CMakeFiles/MLtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/cypress/Works/MachineLearning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/cypress/Works/MachineLearning /Users/cypress/Works/MachineLearning /Users/cypress/Works/MachineLearning/build /Users/cypress/Works/MachineLearning/build /Users/cypress/Works/MachineLearning/build/CMakeFiles/MLtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MLtest.dir/depend
 
