@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/cypress/Works/ML/MFNN.cpp
+MFNN.hpp
+/Users/cypress/Works/ML/MFNN.hpp
+cmath
+-
+random
+-
+iostream
+-
+
+/Users/cypress/Works/ML/MFNN.hpp
+vector
+-
+
+/Users/cypress/Works/ML/main.cpp
+vector
+-
+iostream
+-
+cmath
+-
+main.hpp
+/Users/cypress/Works/ML/main.hpp
+MFNN.hpp
+/Users/cypress/Works/ML/MFNN.hpp
+
+/Users/cypress/Works/ML/main.hpp
+vector
+-
+
